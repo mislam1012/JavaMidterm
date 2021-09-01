@@ -1,0 +1,122 @@
+***ANSWER ALL QUESTIONS BELOW***
+
+Why do we need data structure?
+Answer:Data Structures are the main part of many computer science algorithms as they enable the programmers to handle the data in an efficient way. It plays a vital role in enhancing the performance of a software or a program as the main function of the software is to store and retrieve the user's data as fast as possible.
+
+What are the various operations that can be performed on different data structures?
+Answer:Insertion: Add a new data item in the given collection of data items.
+Deletion: Delete an existing data item from the given collection of data items.
+Traversal: Access each data item exactly once so that it can be processed.
+Searching: Find out the location of the data item if it exists in the given collection of data items.
+Sorting: Arranging the data items in some order i.e. in ascending or descending order in case of numerical data and in dictionary order in case of alphanumeric data.
+
+When would we use data structures in the real world?
+Answer:To implement back functionality in the internet browser. To store the possible moves in a chess game. To store a set of ﬁxed key words which are referenced very frequently. To store the customer order information in a drive-in burger place.
+
+What is an Array?
+Answer:An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together.
+
+What is the difference between Array and ArrayList?
+Answer:Array is a fixed length data structure whereas ArrayList is a variable length Collection class. We cannot change length of array once created in Java but ArrayList can be changed. We cannot store primitives in ArrayList, it can only store object
+
+What is a LinkedList?
+Answer:a linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list
+
+How is an Array different from LinkedList?
+Answer:An array is a collection of elements of a similar data type. A linked list is a collection of objects known as a node where node consists of two parts, i.e., data and address. Array elements store in a contiguous memory location. ... Linked list elements are dependent on each other.
+
+What is a Queue?
+Answer:A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). The difference between stacks and queues is in removing
+
+What is a Stack (not Java memory - refers to data structure)?
+Answer:Stack is a linear data structure which follows a particular order in which the operations are performed. The order is LIFO.
+
+What is FIFO and LIFO?
+Answer: FIFO is an abbreviation for first in, first out. It is a method for handling data structures where the first element is processed first and the newest element is processed last. ... LIFO is an abbreviation for Last in, first out is same as first in, last out (FILO).
+
+Explain Big O Notation?
+Answer:Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
+Let f be a real or complex valued function and g a real valued function. Let both functions be defined on some unbounded subset of the positive real numbers, and {\displaystyle g(x)}g(x) be strictly positive for all large enough values of x.[4] One writes
+
+f(x) = O(g(x)) as x-> infinity
+
+|f(x)| <= cg(x)  for all x>= x0, for some constant c
+
+What is the best case to search an element from an array?
+Answer: The best case complexity is O(1) when element is first or last element in the array.
+
+What is the worst case to search an element from an array?
+Answer:The worst case complexity is O(n+1) (equivalent to O(n)) when element is in the end or not present in the array. 
+
+Describe what a tree data structure is?
+Answer:A tree is a hierarchical data structure defined as a collection of nodes. Nodes represent value and nodes are connected by edges. ... Each node has one parent only but can have multiple children. Each node is connected to its children via edge
+
+Describe what a graph data structure is?
+Answer:A graph data structure consists of a finite (and possibly mutable) set of vertices (also called nodes or points), together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph
+
+What is the difference between the HashTable and HashMap?
+Answer:Though both Hashtable and HashMap are data-structure based upon hashing and implementation of Map interface, the main difference between them is that HashMap is not thread-safe but Hashtable is thread-safe. ... Another difference is HashMap allows one null key and null values but Hashtable doesn't allow null key or values.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model
+Answer:  Array is the major data structure used in RDBMS. Linked List is used for Network data model, and Trees are used for Hierarchical data model
+
+ 
+
+
+How do HashMaps work in Java? How do they store values, and when are they useful?
+Answer:HashMap in Java works on hashing principles. It is a data structure which allows us to store object and retrieve it in constant time O(1) provided we know the key. In hashing, hash functions are used to link key and value in HashMap
+
+What is ArrayIndexOutOfBoundsException in java? When does it occur?
+Answer:The ArrayIndexOutOfBoundsException occurs whenever we are trying to access any item of an array at an index which is not present in the array. In other words, the index may be negative or exceed the size of an array.
+
+What are the different ways of copying an array into another array?
+Answer:There are mainly four different ways to copy all elements of one array into another array in Java.
+Manually.
+Arrays.copyOf()
+System.arraycopy()
+Object.clone()
+
+What is DFS and BFS?
+Answer:BFS stands for Breadth First Search. DFS stands for Depth First Search. ... BFS(Breadth First Search) uses Queue data structure for finding the shortest path. DFS(Depth First Search) uses Stack data structure
+
+What is Recursion?
+Answer:Recursion is the process which comes into existence when a function calls a copy of itself to work on a smaller problem. Any function which calls itself is called recursive function, and such function calls are called recursive calls.
+
+What are linear and non-linear data Structures?
+Answer:In a linear data structure, data elements are arranged in a linear order where each and every elements are attached to its previous and next adjacent. In a non-linear data structure, data elements are attached in hierarchically mannerIn a non-linear data structure, single level is not involved. Therefore, we can’t traverse all the elements in single run only. Non-linear data structures are not easy to implement in comparison to linear data structure. It utilizes computer memory efficiently in comparison to a linear data structure. Its examples are trees and graphs.  
+
+
+Outline different sorting algorithms and their time complexities:
+Algorithm	Time Complexity	 
+ 	  Best	Average	Worst	 
+Selection Sort	Ω(n^2)	θ(n^2)	O(n^2)	 
+Bubble Sort	Ω(n)	θ(n^2)	O(n^2)	 
+Insertion Sort	Ω(n)	θ(n^2)	O(n^2)	 
+Heap Sort	Ω(n log(n))	θ(n log(n))	O(n log(n))	 
+Quick Sort	Ω(n log(n))	θ(n log(n))	O(n^2)	 
+Merge Sort	Ω(n log(n))	θ(n log(n))	O(n log(n))	 
+Bucket Sort	Ω(n+k)	θ(n+k)	O(n^2)	 
+Radix Sort	Ω(nk)	θ(nk)	O(nk)
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a) In terms of Accessing elements:
+  b) In terms of Inserting elements:
+  c) In terms of Searching elements:
+  d) In terms of Removing elements:
+        Time Complexity									Space Complexity
+	Average	Worst	Worst
+	Access	Search	Insertion	Deletion	Access	Search	Insertion	Deletion
+Array	Θ(1)	Θ(n)	Θ(n)	Θ(n)	O(1)	O(n)	O(n)	O(n)	O(n)
+Stack	Θ(n)	Θ(n)	Θ(1)	Θ(1)	O(n)	O(n)	O(1)	O(1)	O(n)
+Queue	Θ(n)	Θ(n)	Θ(1)	Θ(1)	O(n)	O(n)	O(1)	O(1)	O(n)
+Singly-Linked List	Θ(n)	Θ(n)	Θ(1)	Θ(1)	O(n)	O(n)	O(1)	O(1)	O(n)
+Doubly-Linked List	Θ(n)	Θ(n)	Θ(1)	Θ(1)	O(n)	O(n)	O(1)	O(1)	O(n)
+Skip List	Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(n)	O(n)	O(n)	O(n)	O(n log(n))
+Hash Table	N/A	Θ(1)	Θ(1)	Θ(1)	N/A	O(n)	O(n)	O(n)	O(n)
+Binary Search Tree	Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(n)	O(n)	O(n)	O(n)	O(n)
+Cartesian Tree	N/A	Θ(log(n))	Θ(log(n))	Θ(log(n))	N/A	O(n)	O(n)	O(n)	O(n)
+B-Tree	Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(log(n))	O(log(n))	O(log(n))	O(log(n))	O(n)
+Red-Black Tree	Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(log(n))	O(log(n))	O(log(n))	O(log(n))	O(n)
+Splay Tree	N/A	Θ(log(n))	Θ(log(n))	Θ(log(n))	N/A	O(log(n))	O(log(n))	O(log(n))	O(n)
+AVL Tree	Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(log(n))	O(log(n))	O(log(n))	O(log(n))	O(n)
+KD Tree	Θ(log(n))	Θ(log(n))	Θ(log(n))	Θ(log(n))	O(n)	O(n)	O(n)	O(n)	O(n)
